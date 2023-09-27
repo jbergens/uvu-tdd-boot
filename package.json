@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "uvu -r esm src",
-    "test2": "uvu src",
-    "watch": "watchlist src -- npm test"
+    "test": "uvu -r esm tests",
+    "test2": "uvu tests",
+    "watch": "watchlist src tests -- npm test"
   },
   "keywords": [],
   "author": "Johan Bergens",

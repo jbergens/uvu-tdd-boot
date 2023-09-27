@@ -1,7 +1,7 @@
 // sum.test.js
 import { test } from 'uvu';
 import * as assert from 'uvu/assert';
-import { sum } from './sum'
+import { sum } from '../src/sum'
 
 
 test('adds 1 + 2 to equal 3', () => {
